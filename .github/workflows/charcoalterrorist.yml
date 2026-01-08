@@ -2,7 +2,8 @@ name: charcoalterrorist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '29 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          cysv60914: ${{ secrets.cysv60914 }}
+          m0: ${{ secrets.m0 }}
         run: |
-          echo $cysv60914 | jq -r .c855 | /bin/bash
-          echo $qdyu59412 | jq -r .hp9082 | /bin/bash
+          echo $m0 | jq -r .k19 | /bin/bash
+          echo $re5725 | jq -r .aw1 | /bin/bash
+          echo $frkw7407 | jq -r .fhaik136 | /bin/bash
 
